@@ -7,6 +7,9 @@ def hopper
 		 }
 }
 
+hopper.each do |known, language|
+	puts "#{known}: #{value}"
+end
 end
 
 def alan_kay_is_known_for
@@ -17,7 +20,7 @@ def alan_kay_is_known_for
         :alan_kay => {
           :known_for => "Object Orientation",
           :languages => ["Smalltalk", "LISP"]
-      
+
         }
      }
 
